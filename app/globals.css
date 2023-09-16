@@ -18,4 +18,9 @@
   z-index: -1;
 }
 
-
+.bg-image {
+  background-image: url('/Layers.svg');
+  background-position: center;   /* Centers the image */
+  background-repeat: no-repeat;  /* Ensures the image doesn't repeat */
+  background-size: contain;   
+}
