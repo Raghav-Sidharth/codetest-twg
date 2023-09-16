@@ -1,7 +1,9 @@
+import Image from 'next/image'
+
 export default function LandingPage() {
   return (
     <>
-      <div className="bg-gradient-over-img h-screen text-white font-norwester ">
+      <div className="landing-gradient h-screen text-white font-norwester ">
         <div className="p-[120px]">{/* Padding Div */}</div>
         <div className="p-5">
           <div className=" pb-[20px]">
