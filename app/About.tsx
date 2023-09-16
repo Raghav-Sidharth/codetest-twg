@@ -15,7 +15,7 @@ export default function About() {
           </div>
 
           <div>
-            <div className="font-norwester text-white max-w-[800px] max-h-[950px] pt-[750px] pr-[100px] ">
+            <div className="font-norwester text-white max-w-[800px] max-h-[950px] pt-[750px] ">
               <h2 className="uppercase text-6xl max-w-[675px] max-h-[120px] ">
                 Welcome to the World of WASSP Multibeam
               </h2>
@@ -23,11 +23,11 @@ export default function About() {
                 <div className="max-w-[150px] max-h-[100px] pr-[100px]">
                   <p>01</p>
                 </div>
-                <div className="max-w-[400px] max-h-[100px] pr-[144px]">
+                <div className="max-w-[400px] max-h-[100px] pr-[110px]">
                   <p> ABOUT WASSP</p>
                 </div>
-                <div className="max-w-[323px] max-h-[126px]">
-                  <p>
+                <div className="max-w-[400px] max-h-[126px] font-haas">
+                  <p className="text-[16px]">
                     WASSP, a powerful multi-beam sounder with 120-degree
                     coverage and models for deep exploration, offers
                     unparalleled accuracy, detail, and versatility. Target fish

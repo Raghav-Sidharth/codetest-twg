@@ -1,6 +1,9 @@
+@import url("https://use.typekit.net/qpe8ebz.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 .landing-gradient {
   position: relative; /* This ensures the ::before is relative to this element */

@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         norwester: ['norwester'],
+        haas: ['neue-haas-grotesk-display', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
