@@ -1,6 +1,7 @@
 import Navbar from './Navbar'
 import LandingPage from './LandingPage'
 import About from './About'
+import Fseries from './Fseries'
 import Head from 'next/head'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar />
       <LandingPage />
       <About />
+      <Fseries />
     </>
   )
 }
