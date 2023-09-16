@@ -11,10 +11,10 @@ export default function Navbar() {
           </div>
 
           {/* Menu */}
-          <ul className="hidden md:flex px-2 text-white">
-            <li className="px-2">SEARCH</li>
-            <li className="px-2">LOGIN</li>
-            <li className="px-2 flex">
+          <ul className="hidden md:flex px-2 text-white font-norwester">
+            <li className="px-4">SEARCH</li>
+            <li className="px-4">LOGIN</li>
+            <li className="px-4 flex">
               EN{' '}
               <Image
                 className="p-1"
