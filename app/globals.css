@@ -10,20 +10,20 @@
 }
 
 .landing-gradient::before {
-  content: ""; /* Empty content for the pseudo-element */
+  content: ""; 
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, #052133 100%), url('/01.jpg');
   background-size: cover;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0; /* This will stretch the pseudo-element to cover the entire parent */
+  left: 0; 
   position: absolute;
   z-index: -1;
 }
 
 .bg-image {
   background-image: url('/Layers.svg');
-  background-position: center;   /* Centers the image */
+  background-position: 0 center ;   /* Centers the image */
   background-repeat: no-repeat;  /* Ensures the image doesn't repeat */
   background-size: contain;   
 }
