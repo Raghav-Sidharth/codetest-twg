@@ -8,18 +8,18 @@ export default function About() {
 
       {/* Text overlay */}
       <div className="relative h-full">
-        <div className="flex flex-cols flex-wrap pt-[500px] pl-[500px] pr-[500px] ml-[200px] mr-[200px]">
+        <div className="flex flex-cols flex-wrap pt-[450px] pl-[450px] pr-[450px] ml-[200px] mr-[200px]">
           <h2 className="text-white text-6xl uppercase font-norwester">
             Welcome to the World of WASSP Multibeam
           </h2>
-          <div className="flex flex-cols-2 pt-10 font-norwester">
+          <div className="flex flex-cols-2 flex-grow pt-10 font-norwester">
             <div className="pr-10">
               <p className="text-white">01</p>
             </div>
             <div className="pr-10">
               <p className="text-white">ABOUT WASSP</p>
             </div>
-            <div className="font-haas text-2xl">
+            <div className="font-haas text-2xl mr-[250px] ml-20">
               <p className="text-white text-sm">
                 WASSP, a powerful multi-beam sounder with 120-degree coverage
                 and models for deep exploration, offers unparalleled accuracy,
