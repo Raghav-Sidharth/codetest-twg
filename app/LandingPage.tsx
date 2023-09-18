@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function LandingPage() {
   return (
     <>
-      <div className="landing-gradient h-screen text-white font-norwester flex items-center">
+      <div className="landing-gradient w-screen h-screen text-white font-norwester flex items-center">
         <div className="p-4 md:p-8 lg:p-16">
           {/* Existing content */}
           <div className="pb-2 md:pb-4 lg:pb-4">
@@ -15,8 +15,8 @@ export default function LandingPage() {
           </div>
 
           {/* New content */}
-          <div className="flex flex-cols-2">
-            <div className="pt-4 md:pt-8 lg:pt-16 ml-[500px] mr-[1200px] lg:mt-[200px] font-haas">
+          <div className="flex flex-cols-2 justify-center md:justify-start">
+            <div className="text-left md:ml-[500px] md:mr-[1000px] lg:mt-[200px] pt-4 md:pt-8 lg:pt-16 font-haas">
               <p className="text-lg md:text-xl lg:text-2xl">
                 WASSP multi-beam enables sustainable fishing, exploration, and
                 surveys with versatility and detail.
