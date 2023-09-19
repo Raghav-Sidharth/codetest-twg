@@ -2,6 +2,7 @@ import Navbar from './Navbar'
 import LandingPage from './LandingPage'
 import About from './About'
 import Fseries from './Fseries'
+import Features from './Features'
 import Head from 'next/head'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <LandingPage />
       <About />
       <Fseries />
+      <Features />
     </>
   )
 }

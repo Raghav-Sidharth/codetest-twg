@@ -1,7 +1,7 @@
 export default function Fseries() {
   return (
     <>
-      <div className="fishes-gradient h-screen flex flex-col justify-end items-start p-4">
+      <div className="fishes-gradient w-screen h-screen flex flex-col justify-end items-start p-4">
         <div className="flex justify-between items-end w-full">
           <div className="text-white pt-2">
             <div className="flex justify-between w-full font-norwester">
@@ -18,10 +18,12 @@ export default function Fseries() {
           <div className="m-10"></div>
           <div className="text-white pt-2  3 font-haas p-10">
             <p className="pb-5 uppercase">F-Series</p>
-            <span className="text-xl">
-              WASSP Multibeam finds fish and habitat over a wider area than
-              single-beam systems.
-            </span>
+            <div className="text-lg w-[325px]">
+              <p>
+                WASSP Multibeam finds fish and habitat over a wider area than
+                single-beam systems.
+              </p>
+            </div>
           </div>
         </div>
       </div>

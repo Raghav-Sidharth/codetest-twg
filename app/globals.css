@@ -43,3 +43,20 @@
   position: absolute;
   z-index: -1;
 }
+
+
+.blue-gradient {
+  position: relative; /* This ensures the ::before is relative to this element */
+}
+
+.blue-gradient::before {
+  content: ""; 
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, #052133 100%);
+  background-size: cover;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+  position: absolute;
+  z-index: -1;
+}
