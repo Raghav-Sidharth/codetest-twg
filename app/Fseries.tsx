@@ -6,7 +6,7 @@ export default function Fseries() {
           <div className="text-white pt-2">
             <div className="flex justify-between w-full font-norwester">
               <span className="text-lg text-white pr-5">01</span>
-              <div className="h-[1px] w-full bg-white"></div>
+              <div className="h-[1px] w-full bg-white mt-3"></div>
 
               <span className="text-lg text-white pl-5">03</span>
             </div>
