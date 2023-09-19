@@ -15,10 +15,13 @@ export default function Fseries() {
             </p>
             <p className="font-norwester uppercase text-8xl">F - Series</p>
           </div>
-          <div className="text-white pt-2 mr-[100px] ml-[1000px] mb-[25px] font-haas">
+          <div className="m-10"></div>
+          <div className="text-white pt-2  3 font-haas p-10">
             <p className="pb-5 uppercase">F-Series</p>
-            <p className="">WASSP Multibeam finds fish and habitat over a</p>
-            <p>wider area than single-beam systems.</p>
+            <span className="text-xl">
+              WASSP Multibeam finds fish and habitat over a wider area than
+              single-beam systems.
+            </span>
           </div>
         </div>
       </div>
