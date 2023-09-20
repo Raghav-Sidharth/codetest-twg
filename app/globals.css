@@ -56,3 +56,10 @@
   z-index: -1;
 }
 
+.features-comp {
+  background-color: #04192B;
+  background-image: url('/Layers2.svg');
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: 20% center;
+}

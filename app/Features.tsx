@@ -25,28 +25,31 @@ export default function Features() {
   return (
     <>
       <div className="pt-[120px] w-screen bg-[#04192B]"></div>
-      <div className="bg-[#04192B] w-screen h-screen flex">
+      <div className="bg-[#04192B] features-comp w-screen h-screen flex pt-[200px]">
         {/* Left column for Features section */}
+
         <div className="flex flex-wrap space-x-10 font-norwester uppercase text-white w-1/3 items-start p-4">
           <div>
             <p>03</p>
           </div>
-          <div className="ml-10 pl-10">
+          <div className="ml-11 pl-11">
             <p>Features</p>
           </div>
         </div>
 
         {/* Right column for Buttons and Data section */}
-        <div className="flex flex-col text-white w-2/3 items-start p-4">
+        <div className="flex flex-col text-white w-2/3 items-start p-4 font-haas">
           {/* Buttons row */}
-          <div className="flex flex-row flex-wrap space-x-4 mb-4">
+          <div className="flex flex-row flex-wrap space-x-4 mb-10">
             {content.map((data) => (
               <div
                 key={data.id}
                 onClick={() => setSelectId(data.id)}
                 className="cursor-pointer"
               >
-                {data.title}
+                <div className="flex flex-wrap">
+                  <p>{data.id}</p> <p>{data.title}</p>
+                </div>
               </div>
             ))}
           </div>
@@ -57,12 +60,14 @@ export default function Features() {
                 return (
                   <>
                     <div>
-                      <p>{data.id}</p>
+                      <div className="text-4xl">
+                        <p>{data.id}</p>
+                      </div>
+                      <div className="text-6xl mt-11 pt-11">
+                        <p>{data.title}</p>
+                      </div>
                     </div>
-                    <div>
-                      <p>{data.title}</p>
-                    </div>
-                    <div>
+                    <div className="text-2xl">
                       <p>{data.text}</p>
                     </div>
                   </>
