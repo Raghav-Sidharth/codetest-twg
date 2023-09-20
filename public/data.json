@@ -1,0 +1,49 @@
+[
+  {
+    "id": "01",
+    "title": "High Resolution Chirp Sounder",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+
+  {
+    "id": "02",
+    "title": "120° side to side coverage",
+    "text": "Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Id leo in vitae turpis massa."
+  },
+
+  {
+    "id": "03",
+    "title": "Realtime CDX Mapping",
+    "text": "Hendrerit gravida rutrum quisque non tellus orci ac. Semper eget duis at tellus at. Egestas erat imperdiet sed euismod nisi porta. "
+  },
+
+  {
+    "id": "04",
+    "title": "Realtime 3D View CDX",
+    "text": "Et magnis dis parturient montes nascetur. Diam maecenas sed enim ut sem viverra."
+  }, 
+
+  {
+    "id": "05",
+    "title": "Backscatter license",
+    "text": "Arcu risus quis varius quam quisque id diam vel. Cursus turpis massa tincidunt dui ut. Ipsum nunc aliquet bibendum enim facilisis."
+  },  
+  
+  {
+    "id": "06",
+    "title": "High Resolution Side Scan",
+    "text": "Netus et malesuada fames ac turpis egestas maecenas pharetra convallis. Dignissim enim sit amet venenatis urna cursus eget. "
+  },  
+  
+  {
+    "id": "07",
+    "title": "Third-Party Software Integration",
+    "text": "Ullamcorper dignissim cras tincidunt lobortis. Ac auctor augue mauris augue neque gravida. Dui ut ornare lectus sit amet est placerat in."
+  },  
+  
+  {
+    "id": "08",
+    "title": "Multiple WASSP Transducers",
+    "text": "Gravida neque convallis a cras semper auctor neque. Arcu non sodales neque sodales ut etiam. Scelerisque felis imperdiet proin fermentum leo vel orci porta non."
+  }
+]
