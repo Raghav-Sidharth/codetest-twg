@@ -7,11 +7,11 @@ export default function Features() {
 
   return (
     <>
-      <div className="pt-[120px] w-screen bg-[#04192B]"></div>
-      <div className="bg-[#04192B] features-comp w-screen h-screen flex pt-[200px]">
+      <div className=" w-screen bg-[#04192B]"></div>
+      <div className="bg-[#04192B] features-comp w-screen h-screen flex md:flex-row pt-[175px] ">
         {/* Left column for Features section */}
 
-        <div className="flex flex-wrap space-x-10 font-norwester uppercase text-white w-1/3 items-start p-4">
+        <div className="flex flex-wrap space-x-4 md:space-x-10 font-norwester uppercase text-white w-1/3 items-start p-4">
           <div>
             <p>03</p>
           </div>
@@ -21,9 +21,9 @@ export default function Features() {
         </div>
 
         {/* Right column for Buttons and Data section */}
-        <div className="flex flex-col text-white w-2/3 items-start p-4 font-haas">
+        <div className="flex flex-col text-white md:w-2/3 items-start p-4 font-haas mr-11">
           {/* Buttons row */}
-          <div className="flex flex-row flex-wrap mb-10 ">
+          <div className="flex flex-row flex-wrap mb-10 md:justify-start ">
             {content.map((data) => (
               <div
                 key={data.id}
@@ -55,7 +55,7 @@ export default function Features() {
                         <p>{data.title}</p>
                       </div>
                     </div>
-                    <div className="text-2xl pt-10">
+                    <div className="text-2xl pt-10 mr-11">
                       <p>{data.text}</p>
                     </div>
                   </>

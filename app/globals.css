@@ -1,4 +1,4 @@
-@import url("https://use.typekit.net/qpe8ebz.css");
+@import url("https://use.typekit.net/ztw0vem.css");
 
 @tailwind base;
 @tailwind components;
@@ -60,6 +60,6 @@
   background-color: #04192B;
   background-image: url('/Layers2.svg');
   background-repeat: no-repeat;
-  background-size: 35%;
-  background-position: 20% 65%;
+  background-size: 25%;
+  background-position: 30% 75%;
 }
