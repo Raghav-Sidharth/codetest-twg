@@ -6,7 +6,7 @@
 
 
 .landing-gradient {
-  position: relative; /* This ensures the ::before is relative to this element */
+  position: relative; 
 }
 
 .landing-gradient::before {
@@ -23,18 +23,18 @@
 
 .bg-image {
   background-image: url('/Layers.svg');
-  background-position: 0 center ;   /* Centers the image */
-  background-repeat: no-repeat;  /* Ensures the image doesn't repeat */
+  background-position: 0 center ;   
+  background-repeat: no-repeat;  
   background-size: contain;   
 }
 
-.fishes-gradient {
+.about-gradient, .fishes-gradient {
   position: relative;
 }
 
-.fishes-gradient::before {
+.about-gradient::before {
   content: "";
-  background-image: linear-gradient(180deg, #041D2F 0%, rgba(4, 29, 47, 0) 29%, rgba(4, 25, 43, 0) 73%, #04192B 100%), url('/02.jpg');
+  background-image: linear-gradient(180deg, #052133 0%, #041D2F 100%);
   background-size: cover;
   top: 0;
   right: 0;
@@ -44,9 +44,22 @@
   z-index: -1;
 }
 
+.fishes-gradient::before {
+  content: "";
+  background-image: linear-gradient(180deg, #041D2F 0%, rgba(4, 29, 47, 0) 29%, rgba(4, 25, 43, 0) 73%, #04192B 100%), url('/02.jpg');
+  background-size: cover;
+  top: -1px;  
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+
 
 .blue-gradient {
-  position: relative; /* This ensures the ::before is relative to this element */
+  position: relative;
 }
 
 .blue-gradient::before {
@@ -60,3 +73,4 @@
   position: absolute;
   z-index: -1;
 }
+

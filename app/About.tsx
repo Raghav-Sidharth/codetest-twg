@@ -2,7 +2,7 @@ import { Grid } from '@mui/material'
 
 export default function About() {
   return (
-    <div className="relative bg-[#052133] w-screen h-screen">
+    <div className="relative about-gradient w-screen h-screen">
       {/* Background image */}
       <div className="absolute top-0 left-0 w-full h-full bg-cover bg-image z-0"></div>
 
