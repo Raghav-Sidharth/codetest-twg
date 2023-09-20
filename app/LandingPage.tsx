@@ -1,4 +1,5 @@
 import { Grid } from '@mui/material'
+import Image from 'next/image'
 
 export default function LandingPage() {
   return (
@@ -22,6 +23,25 @@ export default function LandingPage() {
                       and surveys with versatility and detail.
                     </p>
                   </div>
+                  <Grid container>
+                    <Grid item xs={12}>
+                      {' '}
+                      <div className="flex justify-end mb-1">
+                        <div className="cursor-pointer px-7 py-2 rounded-full border-2  font-haas">
+                          <div className=" flex flex-wrap">
+                            {' '}
+                            <p className="pt-1 pb-1 pr-3">Contact Us</p>
+                            <Image
+                              src="/ArrowRight.svg"
+                              alt="Menu"
+                              width="30"
+                              height="30"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </Grid>
+                  </Grid>
                 </Grid>
               </Grid>
             </div>
