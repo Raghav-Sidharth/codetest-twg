@@ -1,5 +1,5 @@
 'use client'
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 
 const content = [
   {
@@ -45,10 +45,15 @@ export default function Features() {
               <div
                 key={data.id}
                 onClick={() => setSelectId(data.id)}
-                className="cursor-pointer"
+                className={`cursor-pointer p-2 rounded-full border-2  ${
+                  selectId === data.id
+                    ? 'bg-white text-[#04192b]'
+                    : 'border-white text-white'
+                }`}
               >
-                <div className="flex flex-wrap">
-                  <p>{data.id}</p> <p>{data.title}</p>
+                <div className="flex flex-wrap px-3 py-1">
+                  <p className="font-norwester pr-3">{data.id}</p>{' '}
+                  <p>{data.title}</p>
                 </div>
               </div>
             ))}
@@ -67,7 +72,7 @@ export default function Features() {
                         <p>{data.title}</p>
                       </div>
                     </div>
-                    <div className="text-2xl">
+                    <div className="text-2xl pt-10">
                       <p>{data.text}</p>
                     </div>
                   </>
