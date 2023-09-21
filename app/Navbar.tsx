@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Grid from '@mui/material/Grid'
 
 export default function Navbar() {
   return (

@@ -3,10 +3,7 @@ import Image from 'next/image'
 export default function About() {
   return (
     <div className="relative about-gradient w-screen h-screen">
-      {/* Background image */}
       <div className="absolute top-0 left-0 w-full h-full bg-cover bg-image z-0"></div>
-
-      {/* Text overlay */}
       <div className="relative h-full">
         <div className="flex flex-wrap lg:pt-[300px] lg:pl-[450px] lg:pr-[450px] lg:ml-[100px] lg:mr-[100px] pt-16 pl-8 pr-8">
           <h2 className="text-white text-3xl pb-10 lg:text-6xl uppercase font-norwester">
